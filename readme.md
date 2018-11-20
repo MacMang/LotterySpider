@@ -2,10 +2,16 @@
 
 ### 该爬虫开源并仅限于技术学习交流,请勿做其他非法用途
 
-安装: 
+ 
 ```
-$ npm i 
-$ node app.js
+$ npm i  //安装以来
+$ node app.js //启动服务
+
+可以使用pm2来管理node项目,PM2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
+
+npm install -g pm2
+
+pm2 start app.js --watch
 ```
 
 主要功能是爬取彩票数据.
