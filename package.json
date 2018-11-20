@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "later": "^1.2.0",
+    "mongoose": "^5.3.3",
+    "request": "^2.88.0"
+  }
 }

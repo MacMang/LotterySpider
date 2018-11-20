@@ -1,0 +1,15 @@
+# idae - MongoDB config start - 2016-05-02
+
+# 设置数据文件的存放目录
+dbpath = /usr/local/mongodb/data/test/db
+# 设置日志文件的存放目录及其日志文件名
+logpath = /usr/local/mongodb/data/test/logs/mongodb.log
+# 设置端口号（默认的端口号是 27017）
+port = 27017
+
+# 设置为以守护进程的方式运行，即在后台运行
+fork = true
+
+# nohttpinterface = true
+nohttpinterface = true
+# idae - MongoDB config end - 2016-05-02
