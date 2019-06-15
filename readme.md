@@ -89,7 +89,7 @@ later.date.localTime();
 
 ```
 later.setInterval(()=>{
-    var ssqURL = "http://api.caipiao.163.com/missNumber_trend.html?product=caipiao_client&gameEn=ssq";
+    var ssqURL = "这个接口你要自己去抓了,可以用charles.记住不要违法哦";
     request.get(ssqURL,(err,responsed,body)=>{
         console.log(body);
     })
