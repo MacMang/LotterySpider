@@ -11,7 +11,7 @@
   "dependencies": {
     "koa": "^2.5.3",
     "later": "^1.2.0",
-    "mongoose": "^5.3.3",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0"
   }
 }
